@@ -3,17 +3,47 @@
 <head>
 
 <style>
+
+ /* Navbar container */
+ .navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(255, 255, 255);
+}
+
+
  
-  h1,
+  h1 {
+    margin: 14px 0;
+    font-size: 25px;
+    
+
+  }
   h2 {
     margin: 14px 0;
     font-size: 25px;
 
   }
-  h3,
+  h3 ,
+
   h4  {
     margin: 14px 0;
-    font-size: 20px;
+    font-size: 22px;
 
   }
   
@@ -22,20 +52,20 @@
     margin: 14px 0;
     font-size: 20px;
   }
-
+  
 
   a {
 
-    color:blueviolet;
+    color:orange;
     font-size: 17px;
-    font: verdana;
+    font: arial;
     font-weight: 700;
   
     }
 
   p {
     margin: 0;
-    font: verdana;
+    font: arial;
   
   }
  
@@ -46,14 +76,11 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 70px;
     display: flex;
     align-items: center;
-    background-color: #000000;
-    color: white;
-    font-size: 18px;
-    font: verdana;
-    font-weight: 700;
+    background-color: #ddc0d8b4;
+    
   }
 
   .content {
@@ -93,13 +120,29 @@
     img:hover {
       box-shadow: 0 0 2px rgba(0, 140, 186, 0.5);
     }
+
+
+.toolbar2 {
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    
+  }
+
+  
 </style>
 
 </head>
 <!-- yläbanneri -->
-<div class="toolbar" role="banner">
+<div class="toolbar" role="banner" style="background-image: url('https://raw.githubusercontent.com/NooraPatama/NooraPatama.github.io/master/lintu%20banneri.png');">
 
-  <span>Ansioluettelo</span>
+  
     <div class="spacer"></div>
    
     </a>
@@ -107,48 +150,56 @@
 
 <div class="content" role="main">
 
-<body>
-  <h1>Noora Patama </h1>
-  <h2>21.9.2020</h2>
-</div>
+  
+<body style="background-color:white;">
+<div class="navbar">
+    
+    <a href="#työkokemus">Työkokemus</a>
+    <a href="#projekteja">Projekteja</a>
+    <a href="https://eleanorther.wordpress.com/">Graafinen suunnittelu</a>
+    </div> 
+    
+
+    <h1> Ansioluettelo</h1>
+    <h2>Noora Patama </h2>
+    <h2>2.10.2020</h2></div>
+    </div>
   <br> 
   <br>
   <br>
 
+  <div style="background-color:rgb(247, 241, 232);">
   <h3>Koulutus</h3>
   <br>
- <p> <b>Liiketalouden perustutkinto, merkonomi Mercuria Kauppiaitten Kauppaoppilaitos</b> <br>
-      2012 -2016 </br>
-  <br>Talous- ja toimistopalveluiden osaamisala; <br>
+ <p> <b>Liiketalouden perustutkinto, merkonomi </b><br>
+  Mercuria Kauppiaitten Kauppaoppilaitos | 2012 -2016<br> 
+  <br>talous- ja toimistopalveluiden osaamisala<br>
      painotus sähköiseen kaupankäyntiin </br>
   <br>
-  <br> <b>Viestintä- ja vuorovaikutuspaja Vantaan kaupunki</b><br>
-    2010 </br>
-    <br>
-   Kuvankäsittely, valokuvaus, tapahtumien järjestäminen, vuorovaikutusharjoitukset</br>
   <br>
+  <b>Viestintä- ja vuorovaikutuspaja </b><br>
+  Vantaan kaupunki | 2010<br>
   <br>
-   
-  
-
-   <h5>Entiset työnantajat ja pääasialliset tehtävät</h5> 
+  kuvankäsittely, valokuvaus, tapahtumien järjestäminen, vuorovaikutusharjoitukset | 2010 </br>
+  </p>
+ </div>
+<br>
+<br>
+<br>
+<a id="työkokemus"></a>
+ <div style="background-color:rgb(229, 247, 246);">
+  <h5>Entiset työnantajat ja pääasialliset tehtävät</h5> 
   <br>
   <b>Vantaan seurakunnat</b> <br>
   <br>
   8/2020 - 9/2020 <br>
-  viheralueiden ylläpito, hautojen hoito, kukkaistutukset, konetyöt </br>
+  Viheralueiden ylläpito, hautojen hoito, kukkaistutukset, konetyöt </br>
   <br>
   <br>
   <b>Hyötykasviyhdistys</b> <br>
   <br>
   10/2019 - 6 /2020 <br>
   Verkkokaupan tehtävät, asiakaspalvelu, tuotteiden valmistaminen, tapahtumien valmistelu, puutarhatyö </br>
-  <br>
-  <br>
-  <b>Luomus Ötökkätiimi </b> <br></b>
-  <br>
-  2018 </br>
-  näytteiden digitointi<br>
   <br>
   <br>
   <b>Batz Oy </b><br>
@@ -164,73 +215,125 @@ myymälänhoito <br>
 <br>
 1/2012 - 12/2012 <br>
 Kioskimyyjän tehtävät, kassanhoito, grilli- ja paistotuotteet, pelimyynti,
-elokuvavuokraus
+elokuvavuokraus<br>
 <br>
-<br>
+</div>
 <br>
 <br>
   
+<div style="background-color:rgb(248, 250, 243);">
   <h6>Kielitaito</h6>
-  <p>suomi äidinkieli<br>
-  englanti erinomainen<br>
-  ruotsi perusteet <br>
-  <br></p>
+  <p>
+  <table>
+  <tbody><tr>
+  <td>suomi</td><td>äidinkieli</td> </tr>
+  <tr><td>englanti
+  <td>erinomainen</td></tr>
+  <tr><td>ruotsi<td> 
+  perusteet </td></tr>
+  <tr><td>saksa</td>
+  <td>alkeet</td></tr>
+  </tbody></table>
+  </p>
+  <br>
+</div>
 
-
-
+<div style="background-color:rgb(247, 247, 247);">
  <h6>Kurssit</h6> 
-  Työturvallisuuskortti | 2017 <br>
-  Kuluttajan oikeudet ja
-  velvollisuudet, Kuluttajaliitto | 2015 <br>
-  Veikkauksen peruskoulutus | 2012 <br>
+ <p>
+ <table>
+  <tbody>
+  <tr>
+<td>Mimmit Koodaa Bootcamp | 2020</td></tr>
+  <tr>
+  <td>Työturvallisuuskortti | TTK 2017</td></tr>
+  <tr><td>Hygieniapassi</td></tr>
+  <tr><td>Kuluttajan oikeudet ja velvollisuudet | Kuluttajaliitto 2015</td></tr>
+  <tr><td>Veikkauksen peruskoulutus | Veikkaus 2012</tr></td>
+</tbody></table>
+</p>
+<br>
+</div>
+
+<div style="background-color:white;">
+<h6>It taidot</h6>
+<br>
+  <table>
+  <tbody><tr>
+  <td> MS Office</td>
+  <td> perusteet </td>
+  </tr><tr><td> OpenOffice</td>
+  <td> perusteet </td>
+  </tr><tr>
+    <td>PhotoShop</td>
+    <td>perusteet</td></tr>
+    <tr>
+    <td>GIMP</td>
+    <td>perusteet</td>
+  </tr>
+  <tr>
+    <td>Html5</td>
+    <td>alkeet</td>
+   </tr><tr>
+    <td>GoogleDocs,<br> Degoo</td>
+    <td>perusteet</td>
+  </tr>
+  <tr>
+    <td>Magento</td>
+    <td>sujuva</td>
+  </tr>
+  <tr>
+    <td>WordPress, <br>
+      WooCommerce</td>
+    <td>sujuva</td>
+  </tr>
+  <tr>
+    <td>Reki</td>
+    <td>perusteet</td>
+  </tr>
+</tbody></table>
+</div>
   <br>
-  <h4>It-taidot</h4>
 
-  MS Office perusteet <br>
-  OpenOffice perusteet <br>
-  <br>
-  Photoshop perusteet <br>
-  Html5 alkeet <br>
-  pilvipalvelut (GoogleDocs, -Drive, DeGoo) perusteet <br>
-
-  Magento sujuva <br>
-  WordPress, WooCommerce sujuva  <br>
-  Reki perusteet <br>
-  <br> 
-
-  
+  <div style="background-color:rgb(245, 244, 227);">
   <h6>Harrastusosaaminen</h6> <br>
-  luova kirjoittaminen <br> </link>
-  jooga <br>
-  kuntosali <br>
+  luova kirjoittaminen <br>
   ulkoasusuunnittelu (pelit, verkkosivut) <br>
   valokuvaus<br>
   piirtäminen <a href= "https://eleanorther.wordpress.com/portfolio/">  <b>Portfolio</b></a><br>
   <br>
 
-  <p>linkki kotisivuilleni:</p><br>
+  <h7>linkki kotisivuilleni:</h7><br>
   <a target="_blank" href="https://eleanorther.wordpress.com">
-  <img src="tehdas v1.jpg" alt="Linkki kotisivuilleni" style="width:150px">
+  <img src="tehdas v1.jpg" alt="Linkki kotisivuilleni" style="width:160px">
   </a>
 <br>
 <br>
-  <p>linkit luomiini yrityssivuihin, myös logo suunnittelemani:</p><br>
+<div>
+  <a id="projekteja"></a>
+  <h7>linkkejä luomiini yrityssivuihin, myös logo suunnittelemani:</h7><br>
+<br>
 <a target="_blank" href="https://kodikauppa.wordpress.com">
-    <img src="kodi2.jpg" alt="suunnittelemani sivut, myös logo tekemäni" style="width:150px">
+    <img src="kodi2.jpg" alt="suunnittelemani sivut" style="width:160px">
     </a>
+    <br>
 <a target="_blank" href="https://instagram.com/kodikauppa">
-      <img src="kodi.jpg" alt="suunnittelemani sivut, myös logo tekemäni" style="width:150px">
+      <img src="kodi.jpg" alt="luomani instagram-sivut" style="width:160px">
       </a>
+      <br>
 <a target="_blank" href="https://facebook.com/kodishop">
-        <img src="kodi.jpg" alt="suunnittelemani sivut, myös logo tekemäni" style="width:150px">
+        <img src="kodi.jpg" alt="luomani facebook-sivut, myös logo suunnittelemani" style="width:160px">
         </a>
-
- 
+</div>
+ <br>
+ <address>
+  Kaikki sisältö © <a href="mailto:patamannoora@gmail.com">Noora Patama</a><br>
+  </address>  
+<!-- alabanneri -->
+<div class="toolbar2" role="banner" style="background-image: url('https://raw.githubusercontent.com/NooraPatama/NooraPatama.github.io/master/banneri.png');"></div>
 
 
   </body>
   </html>
-
-
   
   <router-outlet></router-outlet>
